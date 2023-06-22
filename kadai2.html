@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Site</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        img {
+            padding-top: 20px;
+            border-radius: 100%;
+        }
+
+        .im {
+
+            background-image: url("img/background.png");
+            border: solid 1px #000;
+            border-radius: 10px;
+
+        }
+
+        .im2 {
+            text-align: center;
+            margin: 16px;
+            padding: 8px;
+            height: 250px;
+            width: 650px;
+            margin: auto;
+        }
+
+        .ne {
+            font-weight: bold;
+
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 0;
+            padding-top: 0;
+        }
+
+        .tanaka {
+            float: left;
+            padding: 0px 20px;
+        }
+
+        .mina {
+            padding-top: 100px;
+        }
+
+
+
+        @media only screen and (max-width:650px) {
+            .tanaka {
+                float: none;
+                display: block;
+                margin: 0 auto;
+            }
+
+            .mina {
+                padding-top: 0;
+            }
+
+            .im {
+                height: 300px;
+
+            }
+        }
+    </style>
+
+</head>
+
+
+<body>
+    <h1>田中太郎のwebサイトです</h1>
+    <div class="im">
+        <div class="im2">
+            <div class="tanaka">
+                <img src="../作成課題/img/icon.png" alt="gazou">
+                <h2 class="ne">田中太郎</h2>
+            </div>
+
+            <p class="mina">webデザイナー見習いです。日々の勉強頑張っています。</p>
+        </div>
+
+    </div>
+    <footer>
+        <p>&copy;田中太郎</p>
+    </footer>
+
+
+</body>
+
+
+</html>
